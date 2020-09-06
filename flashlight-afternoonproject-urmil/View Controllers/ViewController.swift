@@ -10,41 +10,39 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    ///MARK - Outlets
+    ///MARK: - IB Outlets
+    
     
     @IBOutlet weak var ToggleButton: UIButton!
     
     
-    ///MARK - Properties
+    ///MARK: - properties
     
-    var state:Bool = false
+    var state: Bool = false
     
-    ///MARK - Lifecycle Method printing the state
     
+    ///MARK: - Lifecycle Methods  printing the state
     override func viewDidLoad() {
         super.viewDidLoad()
         print(state)
-       
     }
     
-    ///MARK - Actions
-   
+    ///MARK: - Actions
     
-    @IBAction func buttonTapped(_ sender: UIButton) {
+    
+    @IBAction func ButtonTapped(_ sender: Any) {
         state = !state
-        print("the current button state is \(state)")
+        print("the state of the application is \(state)")
         
         if state {
             view.backgroundColor = .white
             ToggleButton.setTitle("OFF", for: .normal)
             ToggleButton.setTitleColor(.black, for: .normal)
-        }  else {
+        } else {
             view.backgroundColor = .black
             ToggleButton.setTitle("ON", for: .normal)
             ToggleButton.setTitleColor(.white, for: .normal)
         }
-        
     }
-    
     
 }

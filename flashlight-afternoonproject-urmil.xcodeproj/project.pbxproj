@@ -56,15 +56,23 @@
 		B2D9A68625055DB6000FDDF9 /* flashlight-afternoonproject-urmil */ = {
 			isa = PBXGroup;
 			children = (
-				B2D9A68725055DB6000FDDF9 /* AppDelegate.swift */,
-				B2D9A68925055DB6000FDDF9 /* SceneDelegate.swift */,
+				B2D9A69B25055DFD000FDDF9 /* Resources */,
 				B2D9A68B25055DB6000FDDF9 /* ViewController.swift */,
 				B2D9A68D25055DB6000FDDF9 /* Main.storyboard */,
-				B2D9A69025055DB9000FDDF9 /* Assets.xcassets */,
 				B2D9A69225055DB9000FDDF9 /* LaunchScreen.storyboard */,
-				B2D9A69525055DB9000FDDF9 /* Info.plist */,
 			);
 			path = "flashlight-afternoonproject-urmil";
+			sourceTree = "<group>";
+		};
+		B2D9A69B25055DFD000FDDF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2D9A68725055DB6000FDDF9 /* AppDelegate.swift */,
+				B2D9A68925055DB6000FDDF9 /* SceneDelegate.swift */,
+				B2D9A69025055DB9000FDDF9 /* Assets.xcassets */,
+				B2D9A69525055DB9000FDDF9 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
